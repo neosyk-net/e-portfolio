@@ -15,22 +15,22 @@
       <nav>
         <div class="personal__logo">Runerdy Castillo</div>
         <ul class="nav__link--list">
-          <li>
+          <li class="nav__link">
             <a
-              href=""
+              href="#languages"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Languages</a
             >
           </li>
-          <li>
+          <li class="nav__link">
             <a
-              href=""
+              href="#projects"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
-              >Project</a
+              >Projects</a
             >
           </li>
-          <li>
-            <a href="" class="nav__link--anchor nav__link--anchor-primary"
+          <li class="nav__link">
+            <a href="mailto:runerdycastillo@gmail.com" class="nav__link--anchor nav__link--anchor-primary"
               >Contact</a
             >
           </li>
@@ -47,7 +47,7 @@
               />
             </figure>
             <h1 class="about-me__info--title">
-              Hey! I am <span class="text--purple">Runerdy Castillo 👋</span>
+              Hey! I am <span class="text--purple">Runerdy Castillo</span>&nbsp;<span class="wave">👋</span>
             </h1>
             <p class="about-me__info--para">
               I'm a <strong class="text--purple">Frontend Developer</strong> in
@@ -56,7 +56,7 @@
               skills in modern web technologies while continuously learning and
               growing as a developer.
             </p>
-            <div class="about-me_links">
+            <div class="about-me__links">
               <a href="" class="about-me__link">
                 <i class="fa-brands fa-linkedin"></i>
               </a>
@@ -66,7 +66,7 @@
               <a href="" class="about-me__link">
                 <i class="fa-solid fa-envelope"></i>
               </a>
-              <a href="" class="about-me__link">
+              <a href="./assets/Example Resume.pdf" target="_blank" class="about-me__link">
                 <i class="fa-solid fa-file"></i>
               </a>
             </div>
@@ -158,7 +158,33 @@
                     officia veritatis alias. Incidunt, fugit aspernatur.
                   </p>
                   <div class="project__description--links">
-                    <a href="www.github.com/neosyk-net" target="_blank" class="project__description--link">
+                    <a href="https://www.github.com/neosyk-net" target="_blank" class="project__description--link">
+                        <i class="fa-brands fa-github-alt"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/loopit.png"
+                  class="project__img"
+                  alt="Car Subscription Project"
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">Dashboard</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JAVASCRIPT & REACT
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Delectus et maxime nihil nesciunt, illo sunt iusto aliquid
+                    praesentium doloremque consectetur sint laborum, tempore sed
+                    officia veritatis alias. Incidunt, fugit aspernatur.
+                  </p>
+                  <div class="project__description--links">
+                    <a href="https://www.github.com/neosyk-net" target="_blank" class="project__description--link">
                         <i class="fa-brands fa-github-alt"></i>
                     </a>
                   </div>
@@ -169,5 +195,37 @@
         </div>
       </div>
     </section>
+    <footer>
+        <div class="row footer__row">
+            <a href="#" class="footer__anchor">
+                <figure class="footer__logo">
+                    <img src="./assets/logo.svg" class="footer__logo--img" alt="">
+                </figure>
+                <span class="footer__logo--popper">
+                    Top
+                    <i class="fas fa-arrow-up"></i>
+                </span>
+            </a>
+            <div class="footer__social--list">
+              
+                <a href="https://github.com" target="_blank" class="
+                footer__social--link
+                link__hover-effect
+                link__hover-effect--white
+                ">Github</a>
+                <a href="mailto:runerdycastillo@gmail.com" target="_blank" class="
+                footer__social--link
+                link__hover-effect
+                link__hover-effect--white
+                ">Email</a>
+                <a href="./assets/Example Resume.pdf" target="_blank" class="
+                footer__social--link
+                link__hover-effect
+                link__hover-effect--white
+                " target="_blank" download>Resume</a>
+            </div>
+            <div class="footer__copyright">Copyright © 2025 Runerdy Castillo</div>
+        </div>
+    </footer>
   </body>
 </html>
